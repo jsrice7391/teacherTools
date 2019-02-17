@@ -9,4 +9,7 @@ This is a repo containing teaching tools that I use to teach JavaScript.
 
 
 ## Contributions
-Add your own tools with a README to explain what the activity is accomplishing. Keep them simple.
+1. Fork this repo.
+2. Make your own modifications.
+3. Add your own tools with a README to explain what the activity is accomplishing. Keep them simple.
+4. Create a pull request, with a description of your changes. 
