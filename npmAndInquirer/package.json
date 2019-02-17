@@ -1,0 +1,15 @@
+{
+  "name": "startNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jason.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Justin Rice <jsrice7391@gmail.com> (https://jsrice7391.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
+}

@@ -1,0 +1,62 @@
+/* Visual Studio is great at helping us with color coded elements
+The below element specifies ALL of the H1 tags on our page will be blue, our body will have a little bit of a margin (spacing between elements) and our H3 headers will be green. This is the most general way to call elements */
+body{
+    margin: 2.5%;
+}
+h1{
+    color: blue;
+}
+
+h3{
+    color: green;
+}
+
+div{
+    text-align: right;
+    float:left;
+    clear: both;
+    padding: 5%;
+    margin: 2.5%;
+    width: 40%;
+    background-color: beige;
+}
+
+/* This is where those IDs and Classes come into play. The below text specifies that H1s that are within something with the id first, will be slightly larger and also brown */
+
+#first {
+    text-align: left;
+    float: right;
+    clear: both;
+}
+#first h1{
+    text-align: left;
+    font-size: 30px;
+    color: brown;
+}
+
+
+
+
+
+/* This is calling our div with the class secondDiv and specifying all the paragraph tags within it. In this case we will have a series of boxes that have a greay background and a border*/
+.box{
+    text-align: center;
+    background-color: dimgray;
+    height: 300px;
+    width: 90%;
+    margin: 5%;
+    border: 1px solid black
+}
+
+#cloudButton, #checkButton{
+    float:left;
+}
+
+/* Remember, we use classes so we can reproduce the same results throughout the page. SO MUCH LESS WRITING!!!*/
+
+/* Challenge: 
+-   Turn the <a></a> tags within the .box class and take away their underlines
+-   Turn the paragraphs within the class box to be your favorite color
+-   Create an unordered list on the HTML page that has 3 things you love 
+-   Create an ordered list on the page that has a list of your top 3 favorite movies
+*/

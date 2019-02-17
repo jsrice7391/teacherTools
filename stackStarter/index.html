@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- This is the header of an HTML page. It holds all of the information that our brower needs to load our website. The three lines directly below this are unimportant to most people. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- This loads something called a CDN or outside library. Outside libraries are useful because most of them come with styling and spacing. Creativity wise, it is a tad limiting,but studies show that User Experience is much eaiser when users are familiar with the design. -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- This will load our CSS page, so that we can style our page on a different document. This is best practice because if we have an error stylistically, or structurally, we know which document we can look at. It also helps if we are working with miltiple developers to not all work on the exact same document. Things get done faster and projects FLOOW. -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Miriam's Website</title>
+</head>
+<!-- The body of the page contains everything we as the users get to see -->
+<body>
+    <h1>Here is the Website!</h1>
+    <a id="clicker" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Click Me</a>
+
+    <p>Paragraphs are the most common way to create text on a page. They naturally get their own spacing</p>
+    <em>We can also write with emphasis</em>
+    <!-- We needs a new line so we use the Br tag  -->
+    <br/>
+    <b>OR BOLD!</b>
+
+    <p>We sometimes need to list elements</p>
+
+    <ul>
+        <li>Here is an unordered list</li>
+        <li>We get the bullets by default</li> 
+        <li>We can style them though!</li>
+    </ul>
+
+    <ol>
+        <li>Here is an ordered list</li>
+        <li>We get the numbers by default</li> 
+        <li>We can style them though!</li>
+    </ol>
+
+
+    <h3>Divs</h3>
+    <div>
+        <p>Divs are one of the most important things within html</p> 
+        <p>They allow us to structure our pages and play with specified elements</p>
+    </div>
+
+    <div id="first">
+        <p>This div has an id attribute that we called "first"</p> 
+        <p>"First" is an arbitrary value we could call anything we wanted</p>
+        <p>The ID attribute of "first" allows us to specify this specific div.</p>
+        <p>IT is best practice to only use an ID attribute on one element. Just like your name or social security number should only point to you.</p>
+        <a href="#">It will apply to everyting between the div tags</a>
+    </div> 
+
+        <div class="box">
+            <p>This div has a class attribute that we called "box"</p>
+            <p>"Box" is an arbitrary value we could call anything we wanted</p>
+            <p>The class attribute allows us to specify ANY div that has the class "box".</p>
+            <a href="#">It will apply to everyting between the div tags</a>
+        </div>
+
+
+
+
+    <a id="cloudButton" class="btn-floating btn-large pulse"><i class="material-icons">cloud</i></a>
+
+    <a id="checkButton" class="btn-floating btn-large pulse"><i class="material-icons">check_circle</i></a> 
+
+    <div id="favorites">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
