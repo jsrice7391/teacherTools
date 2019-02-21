@@ -6,6 +6,8 @@ This is a repo containing teaching tools that I use to teach JavaScript.
 * backToBasics - a folder concentrating on writing functions that return a portion of a large json object. 
 * npmAndInquirer - a folder focussing on creating a CLI with inquirer and dividing the logic into different JS files.
 * stackStarter - an exercise to help walk through teaching HTML, CSS and jQuery. 
+* constructors - Pokemon as an example of JS constructors.
+
 
 
 ## Contributions
