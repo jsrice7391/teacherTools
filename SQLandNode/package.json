@@ -1,0 +1,16 @@
+{
+  "name": "SQLandNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Justin Rice <jsrice7391@gmail.com> (https://jsrice7391.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "mysql": "^2.16.0"
+  }
+}
