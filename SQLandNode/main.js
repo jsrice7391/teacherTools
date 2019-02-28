@@ -8,15 +8,16 @@ let connection = mysql.createConnection({
     database: "quotes_db"
 });
 
+console.log(process.env)
 connection.connect();
 
 connection.query("SELECT * FROM quotes;", function (error, results, fields) {
     if (error) throw error;
-    results.forEach(quote => {
+    results.forEach(result => {
         console.log("------------")
-        console.log(quote.quote)
+        console.log(result.quote)
     })
 });
 
 
-connection.end();
+connection.end();;
