@@ -6,9 +6,19 @@ const PORT = process.env.port || 3001;
 
 app.use(morgan('dev'))
 
+app.use(express.static(__dirname + '/public'));
+
+// Sets up the Express app to handle data parsing
+app.use(express.urlencoded({
+    extended: true
+}));
+app.use(express.json());
+
+
+
 app.get("/", (req, res) => {
     console.log(req.params)
-    res.send("Welcome to the Machine")
+    res.sendFile(__dirname + "/public/pages/index.html")
 })
 
 app.get("/profile", (req, res) => {
