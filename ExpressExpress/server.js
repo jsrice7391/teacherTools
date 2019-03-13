@@ -14,8 +14,6 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
-
-
 app.get("/", (req, res) => {
     console.log(req.params)
     res.sendFile(__dirname + "/public/pages/index.html")
@@ -29,8 +27,13 @@ app.get("/profile", (req, res) => {
 app.get("/profile/:id", (req, res) => {
     console.log(req.params)
     res.send(`This is the profile for: ${req.params.id}`)
+});
+
+app.post("/reservation", (req, res) => {
+    res.send("WE ADDED SOMETHING!!!")
 })
 
+
 app.listen(PORT, () => {
-    console.log(`App is listening on PORT:${PORT}`)
+    console.log(`App is listening on PORT:${PORT} 🚀`)
 })

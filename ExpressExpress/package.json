@@ -10,7 +10,9 @@
   "author": "Justin Rice <jsrice7391@gmail.com> (https://jsrice7391.github.io/)",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5"
   }
 }
