@@ -6,4 +6,4 @@ module.exports = function (sequelize, DataTypes) {
         complete: DataTypes.BOOLEAN,
     })
     return Burger;
-}
+};
